@@ -4,6 +4,7 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
+import { Certificates} from "../Certificates/Certificates";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -147,8 +148,7 @@ export function Main() {
                 "value": "*",
                 "weight": "400"
               },
-              "image": [
-                {
+              "image": [/**                {
                   "src": boostrapIcon,
                   "width": 20,
                   "height": 20
@@ -212,7 +212,8 @@ export function Main() {
                   "src": vueIcon,
                   "width": 20,
                   "height": 20
-                },
+                }, */
+
 
               ],
               "polygon": {
@@ -258,6 +259,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Project></Project>
+      <Certificates></Certificates>
       <Contact></Contact>
     </Container>
   );
